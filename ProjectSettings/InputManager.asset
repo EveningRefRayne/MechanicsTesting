@@ -293,3 +293,51 @@ InputManager:
     type: 0
     axis: 0
     joyNum: 0
+  - serializedVersion: 3
+    m_Name: XMove
+    descriptiveName: Move forward on X-Axis
+    descriptiveNegativeName: Move backward on X-Axis
+    negativeButton: left
+    positiveButton: right
+    altNegativeButton: a
+    altPositiveButton: d
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 0
+  - serializedVersion: 3
+    m_Name: YMove
+    descriptiveName: Move forward on Y-Axis
+    descriptiveNegativeName: Move backward on Y-Axis
+    negativeButton: page down
+    positiveButton: page up
+    altNegativeButton: r
+    altPositiveButton: f
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 0
+  - serializedVersion: 3
+    m_Name: ZMove
+    descriptiveName: Move forward on Z-Axis
+    descriptiveNegativeName: Move backward on Z-Axis
+    negativeButton: down
+    positiveButton: up
+    altNegativeButton: s
+    altPositiveButton: w
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 0
