@@ -8,7 +8,7 @@ public class SimpleMove : MonoBehaviour {
 
 
 	void Update () {
-        mov = new Vector3 (Input.GetAxis("XMove"), Input.GetAxis("YMove"), Input.GetAxis("ZMove"));
-        transform.position += mov * Time.deltaTime * speed;
+        mov.Set(Input.GetAxis("XMove"), Input.GetAxis("YMove"), Input.GetAxis("ZMove"));
+        transform.localPosition +=  transform.rotation * mov * Time.deltaTime * speed;
 	}
 }
