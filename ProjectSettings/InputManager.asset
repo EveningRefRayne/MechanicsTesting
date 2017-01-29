@@ -315,8 +315,8 @@ InputManager:
     descriptiveNegativeName: Move backward on Y-Axis
     negativeButton: page down
     positiveButton: page up
-    altNegativeButton: r
-    altPositiveButton: f
+    altNegativeButton: f
+    altPositiveButton: r
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
@@ -333,6 +333,22 @@ InputManager:
     positiveButton: up
     altNegativeButton: s
     altPositiveButton: w
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 0
+  - serializedVersion: 3
+    m_Name: MiddleClick
+    descriptiveName: Mouse Middle Click
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: mouse 3
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
