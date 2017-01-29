@@ -346,7 +346,7 @@ InputManager:
     descriptiveName: Mouse Middle Click
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: mouse 3
+    positiveButton: mouse 2
     altNegativeButton: 
     altPositiveButton: 
     gravity: 1000
