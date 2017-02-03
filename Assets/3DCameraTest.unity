@@ -1369,7 +1369,7 @@ MonoBehaviour:
   MinimumX: -60
   MaximumX: 60
   smooth: 0
-  smoothTime: 2
+  smoothTime: 1
   cameraAnchorZ: {fileID: 896027587}
   cameraAnchorX: {fileID: 1159484290}
   setLockPos: 1
@@ -2218,9 +2218,7 @@ MonoBehaviour:
   minDist: 0.5
   maxDist: 30
   anchor: {fileID: 896027587}
-  zoomAmt: 0
   dest: {x: 0, y: 0, z: 0}
-  moveDist: 0
 --- !u!1 &1679548139
 GameObject:
   m_ObjectHideFlags: 0
